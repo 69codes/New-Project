@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding-inline-end: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+
+}
+#slider{
+    color: white;
+}
+//.nav-container{
+    height: 608px;
+    width: 1311px;
+}
+
+
+.leftdiv{
+    margin-top: 40px;
+    margin-left: 75px;
+}
+ul{
+    list-style: none;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    color: white !important;
+    
+}
+li, button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: inherit;
+    font: inherit;
+    color: white;
+
+    
+}
+.s2{
+    border-right: solid;
+    border-width: 1px;
+    border-left: solid;
+    border-width: 1px;
+    padding: 0 7px 0 7px;
+    
+    
+}
+
+
+.b2{
+    display: block;
+    position: relative;
+    justify-content: center;
+}
+.pol{
+    position: relative;
+    padding: 1px;
+    margin-top: 9px;
+}
+.rd{
+    position: relative;
+    float: right;
+    margin-right: 75px;
+    margin-top: -12.5px;
+}
+.bb2{
+    z-index: 1000;
+}
+.ss1{
+    border-right: solid;
+    border-width: 1px;
+    padding-right: 5px; 
+}
+.ss2{
+    padding-right: 10px;
+    border-width: 1px;
+    padding-left: 10px;
+
+}
+
+.ss2 a{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: white;
+
+}
+.ss2:hover{
+    color: rgb(221, 221, 221);
+}
+.bb3{
+    
+    background-origin: padding-box;
+    box-lines: solid;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    margin-top: -5px;
+    border: solid;
+    padding: 5px 15px 5px 15px;
+    border-width: 2px;
+    font-size: 17px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+.name{
+    font-size: 30.3px;
+    position: relative;
+    float: center;
+    font-family: cursive;
+    align-self: center;
+    text-align: center;
+    margin-left: 330px;
+    margin-top: -30px;
+}
+.word{
+    font-size: 35px;
+    margin-top: 3.5cm;
+    margin-left: 2.5cm;
+}
+.wrd{
+    font-size: 22px;
+    margin-left: 2.5cm;
+}
+.dropdown{
+    position: relative;
+    color: black;
+    width: 16px;
+    height: 14px;
+    
+}
+.s3{
+    border-left: solid;
+    border-width: 1px;
+    padding-left: 10px;
+}
+.click{
+    position: relative;
+    background-color: rgb(0, 185, 100);
+    border: hidden;
+    margin-top: 50x;
+    margin-left: 2.5cm;
+    padding: 12px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+    
+}
+.click:hover{
+    background-color: rgb(6, 187, 6);
+}
+#header{
+    width: 100%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 608px;
+    margin-top: 0px;
+    color: white;
+    
+}
+.dropdown1{
+    position: relative;
+    display: inline-block;
+}
+.disc{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 9px;
+}
+.disc a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+.disc a:hover{
+    background-color: #ddd;
+    border-radius: 5px;
+
+}
+.dropdown1:hover .disc{
+    display: block;
+   
+}
+
+
+.dropdown2{
+    position: relative;
+    display: inline-block;
+}
+.disc2{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 9px;
+}
+.disc2 a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+.disc2 a:hover{
+    background-color: #ddd;
+    border-radius: 5px;
+
+}
+.dropdown2:hover .disc2{
+    display: block;
+}
+.dropdown3{
+    position: relative;
+    display: inline-block;
+}
+.disc3{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 9px;
+}
+.disc3 a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+.disc3 a:hover{
+    background-color: #ddd;
+}
+.dropdown3:hover{
+    display: block;
+}
+.dropdown3 a{
+    text-decoration: none;
+}
+#topsegment{
+    background-image: url(../images/girlfootbal.jpg);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 608px;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 0px;
+    width: 1366px;
+    color: white;
+    position: relative;
+
+
+}
+.bottom-left{
+    position: absolute;
+    bottom: 58px;
+    left: 2.5cm;
+}
+.bottom-left2{
+    position: absolute;
+    bottom: 40px;
+    left: 2.5cm;
+}
+
