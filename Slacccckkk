@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slack Parody</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="image/slack.png" type="image/slack.png">
+</head>
+<body>
+    <!--This is a portfolio website for github.com/69codes, i'm new in coding, sorry if you dont understand somethings... ill try to have more comments-->
+    <!--This is the header lol-->
+    <header role="banner">
+        <!--off course our navigation-->
+        <nav class="topnav" role="navigation">
+            <div class="navcontainer">
+                <!--The logo-image link-->
+                <div class="logo"><a href="index.html"><img src="image/sla.png" alt="slack logo on nav" class="imgl"></a></div>
+            </div>
+            <!--Our Listed items in the navigation-->
+            <ul class="nav-ul">
+                <div class="dropdown"><li class="listitem"><span role="button" class="btnspan"> Why Slack?</span></li>
+                    <!--Dropdown content-->
+                    <div class="dct">
+                        <p>ABOUT THE PRODUCT</p>
+                        <a href="">How it works</a>
+                        <a href="">Security</a>
+                        <a href="">Customers</a>
+                        <a href="">Enterprise</a>
+                    </div>
+                </div>
+
+
+                <li class="listitem"><span role="button" class="btnspan"> Solutions </span></li>
+                <li class="listitem"><span role="button" class="btnspan"> Resource </span></li>
+                <li class="listitem"><a href="" class="pricing">Pricing</a></li>
+                <li class="listitem"><a href="" class="signin">Sign in</a></li>
+                <li class="listitem"><a href="">GET STARTED</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
